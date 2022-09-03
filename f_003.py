@@ -64,7 +64,7 @@ test_config = {
         {'id': 3, 'input_values': [0, 0], 'output_expected': 0},
         {'id': 4, 'input_values': [0, 1], 'output_expected': 0},
         {'id': 5, 'input_values': [0, -1], 'output_expected': 0},
-        {'id': 6, 'input_values': [-1, 0], 'output_expected': -0},
+        {'id': 6, 'input_values': [-1, 0], 'output_expected': 0},
         {'id': 7, 'input_values': [-2, -8], 'output_expected': 16}
     ],
     'print_details': True  

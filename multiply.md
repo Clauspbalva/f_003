@@ -49,6 +49,17 @@ by successive addition
 |---|---|---|
 | `n3` | result of `n1` * `n2` made by successive additions | *key:integer* <br> `int`
 
+## 1. Test cases
+---
+| Id | `n1` | `n2` | Output expected |
+|---|---|---|---|
+| 1 | `1.2` | `0` | None |
+| 2 | `1` | `"12"` | None |
+| 3 | `0` | `0` | 0 |
+| 4 | `0` | `1` | 0 |
+| 5 | `0` | `-1` | 0 |
+| 6 | `-1` | `0` | 0 |
+| 7 | `-2` | `-8` | 16 |
 
 <br>
 
