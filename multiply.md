@@ -66,6 +66,6 @@ by successive addition
 ## 2. Algorithm
 ---
 
-![Algorithm](f_003_algorithm.drawio.png)
+![Algorithm](algorithm.drawio.png)
 
 
