@@ -10,7 +10,7 @@ Algorithms and Data Structures practice with Python
 # Imports
 # --------------------------------------------------------------------------------------------------
 
-import f_000
+from module_000 import function_test
 
 
 # --------------------------------------------------------------------------------------------------
@@ -31,7 +31,7 @@ def multiply(n1, n2):
 
     # Validates parameters: integer type
     if type(n1) != int or type(n2) != int:
-        return 'ERROR'
+        return None
 
     # Determines result sign
     if (n1 > 0 and n2 > 0) or (n1 < 0 and n2 < 0):
@@ -53,14 +53,14 @@ def multiply(n1, n2):
 # --------------------------------------------------------------------------------------------------
 # TESTING
 # --------------------------------------------------------------------------------------------------
-
+ 
 # Dictionary with test cases
 test_config = {
     'function': multiply,
     'input_names': ['n1', 'n2'],
     'tests': [
-        {'id': 1, 'input_values': [1.2, 0], 'output_expected': 'ERROR'},
-        {'id': 2, 'input_values': [1, '12'], 'output_expected': 'ERROR'},
+        {'id': 1, 'input_values': [1.2, 0], 'output_expected': None},
+        {'id': 2, 'input_values': [1, '12'], 'output_expected': None},
         {'id': 3, 'input_values': [0, 0], 'output_expected': 0},
         {'id': 4, 'input_values': [0, 1], 'output_expected': 0},
         {'id': 5, 'input_values': [0, -1], 'output_expected': 0},
@@ -76,7 +76,7 @@ test_config = {
 # --------------------------------------------------------------------------------------------------
 
 if __name__ == "__main__":   
-    f_000.function_test(test_config)
+    function_test(test_config)
 
 
 
