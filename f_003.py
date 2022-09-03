@@ -10,7 +10,11 @@ Algorithms and Data Structures practice with Python
 # Imports
 # --------------------------------------------------------------------------------------------------
 
-import f_000
+import sys
+
+sys.path.insert(0, 'C://Users//pagan//OneDrive//Desktop//Programming//Projects//python_projects//f_000')
+
+from f_000 import function_test
 
 
 # --------------------------------------------------------------------------------------------------
